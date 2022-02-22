@@ -1,0 +1,86 @@
+body {
+    background-color: #4761a8;
+    font-family: sans-serif;
+    color: #91c3f2;
+    background-image: url(https://www.walldevil.com/wallpapers/a85/wallpapers-adventure-desktop-wallpaper-aventuras-princess-images-lumpy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 70%;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+audio {
+    width: 600px;
+}
+
+h1 {}
+
+img {
+    width: 90%;
+    margin: 10px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.resultWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.song {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    background-color: #BA6DCB;
+    margin: 1%;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s cubic-bezier(0.42, 0, 0.68, 2.94);
+}
+
+.song:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1, 1.1);
+}
+
+.song:hover::after {
+    opacity: 1;
+}
+
+.track {}
+
+.band {}
+
+hr {
+    width: 80%;
+    border-style: solid;
+}
+
+#first {
+    border-color: darkgray;
+}
+
+#second {
+    border-color: lightgray;
+}
+
+p {
+    color: #160009;
+}
